@@ -1,0 +1,1 @@
+md c:\MQL\%date:~2,2%%date:~5,2%%date:~8,2%
