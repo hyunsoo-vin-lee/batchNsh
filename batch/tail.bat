@@ -1,0 +1,1 @@
+PowerShell.exe -command "Get-Content C:\DassaultSystemes\R2020x\3DSpace\logs\ematrixwar.log -Wait"
