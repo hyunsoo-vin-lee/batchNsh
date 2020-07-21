@@ -1,0 +1,1 @@
+schtasks /Create /sc minute /mo 5 /tn "Task 시작, 종료 알림 메일 발송" /tr "C:\workspace\3dspace\BAT\TaskMailSend.bat"

@@ -1,0 +1,9 @@
+
+cmd ;
+mql -b MATRIX-R-111 -install -user aaaa -password aaaa -host DEV -driver Oracle/OCI80
+mql -b [bootfile 명] -install -user [DB계정] -password [DB 비밀번호] -host [tnsnames.ora의 ALIAS명] -driver Oracle/OCI80
+
+
+
+Cmd에서 path로 잡혀있는 것 들 중에 mql이 실행되고 , 이때 enovia.ini의 matrix home경로에 bootfile이 생성되어 저장된다. 
+
