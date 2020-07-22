@@ -1,0 +1,40 @@
+rem 3DSpace
+set JAVA_HOME=C:\DassaultSystemes\R2019x\3DSpace\win_b64\code\serverjre
+%JAVA_HOME%\jre\bin\keytool -delete -keystore %JAVA_HOME%\jre\lib\security\cacerts -storepass changeit -alias pdmroot -file "C:\Apache24\conf\certi\pdmroot.crt" -noprompt
+%JAVA_HOME%\jre\bin\keytool -delete -keystore %JAVA_HOME%\jre\lib\security\cacerts -storepass changeit -alias pdmtestdomain -file "C:\Apache24\conf\certi\pdmtest.sangsin.com.crt" -noprompt
+
+rem 3DComment
+set JAVA_HOME=C:\DassaultSystemes\R2019x\3DComment\win_b64\code\serverjre
+%JAVA_HOME%\jre\bin\keytool -delete -keystore %JAVA_HOME%\jre\lib\security\cacerts -storepass changeit -alias pdmroot -file "C:\Apache24\conf\certi\pdmroot.crt" -noprompt
+%JAVA_HOME%\jre\bin\keytool -delete -keystore %JAVA_HOME%\jre\lib\security\cacerts -storepass changeit -alias pdmtestdomain -file "C:\Apache24\conf\certi\pdmtest.sangsin.com.crt" -noprompt
+
+rem 3DDashboard
+set JAVA_HOME=C:\DassaultSystemes\R2019x\3DDashboard\win_b64\code\serverjre
+%JAVA_HOME%\jre\bin\keytool -delete -keystore %JAVA_HOME%\jre\lib\security\cacerts -storepass changeit -alias pdmroot -file "C:\Apache24\conf\certi\pdmroot.crt" -noprompt
+%JAVA_HOME%\jre\bin\keytool -delete -keystore %JAVA_HOME%\jre\lib\security\cacerts -storepass changeit -alias pdmtestdomain -file "C:\Apache24\conf\certi\pdmtest.sangsin.com.crt" -noprompt
+
+rem 3DNoti
+set JAVA_HOME=C:\DassaultSystemes\R2019x\3DNotification\win_b64\code\serverjre
+%JAVA_HOME%\jre\bin\keytool -delete -keystore %JAVA_HOME%\jre\lib\security\cacerts -storepass changeit -alias pdmroot -file "C:\Apache24\conf\certi\pdmroot.crt" -noprompt
+%JAVA_HOME%\jre\bin\keytool -delete -keystore %JAVA_HOME%\jre\lib\security\cacerts -storepass changeit -alias pdmtestdomain -file "C:\Apache24\conf\certi\pdmtest.sangsin.com.crt" -noprompt
+
+rem 3DPassport
+set JAVA_HOME=C:\DassaultSystemes\R2019x\3DPassport\win_b64\code\serverjre
+%JAVA_HOME%\jre\bin\keytool -delete -keystore %JAVA_HOME%\jre\lib\security\cacerts -storepass changeit -alias pdmroot -file "C:\Apache24\conf\certi\pdmroot.crt" -noprompt
+%JAVA_HOME%\jre\bin\keytool -delete -keystore %JAVA_HOME%\jre\lib\security\cacerts -storepass changeit -alias pdmtestdomain -file "C:\Apache24\conf\certi\pdmtest.sangsin.com.crt" -noprompt
+
+rem 3DSwym
+set JAVA_HOME=C:\DassaultSystemes\R2019x\3DSwym\win_b64\code\serverjre
+%JAVA_HOME%\jre\bin\keytool -delete -keystore %JAVA_HOME%\jre\lib\security\cacerts -storepass changeit -alias pdmroot -file "C:\Apache24\conf\certi\pdmroot.crt" -noprompt
+%JAVA_HOME%\jre\bin\keytool -delete -keystore %JAVA_HOME%\jre\lib\security\cacerts -storepass changeit -alias pdmtestdomain -file "C:\Apache24\conf\certi\pdmtest.sangsin.com.crt" -noprompt
+
+rem FCS
+set JAVA_HOME=C:\DassaultSystemes\R2019x\FCS\win_b64\code\serverjre
+%JAVA_HOME%\jre\bin\keytool -delete -keystore %JAVA_HOME%\jre\lib\security\cacerts -storepass changeit -alias pdmroot -file "C:\Apache24\conf\certi\pdmroot.crt" -noprompt
+%JAVA_HOME%\jre\bin\keytool -delete -keystore %JAVA_HOME%\jre\lib\security\cacerts -storepass changeit -alias pdmtestdomain -file "C:\Apache24\conf\certi\pdmtest.sangsin.com.crt" -noprompt
+
+rem Federated
+set JAVA_HOME=C:\DassaultSystemes\R2019x\FedSearch\win_b64\code\serverjre
+%JAVA_HOME%\jre\bin\keytool -delete -keystore %JAVA_HOME%\jre\lib\security\cacerts -storepass changeit -alias pdmroot -file "C:\Apache24\conf\certi\pdmroot.crt" -noprompt
+%JAVA_HOME%\jre\bin\keytool -delete -keystore %JAVA_HOME%\jre\lib\security\cacerts -storepass changeit -alias pdmtestdomain -file "C:\Apache24\conf\certi\pdmtest.sangsin.com.crt" -noprompt
+
