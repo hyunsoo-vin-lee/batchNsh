@@ -1,0 +1,12 @@
+*PERSON admin_platform;TES
++ATTRIBUTE First Name;Admin
++ATTRIBUTE Last Name;Platform
++ATTRIBUTE Email Address;admin_platform@myemail.com
++ATTRIBUTE Country;KOR
++PASSWORD Qwer1234
+*PERSON admin_platform;TES
++ATTRIBUTE First Name;Admin
++ATTRIBUTE Last Name;Platform
++ATTRIBUTE Email Address;admin_platform@myemail.com
++ATTRIBUTE Country;KOR
++PASSWORD Qwer1234
