@@ -1,0 +1,15 @@
+mod bus ${OBJECT_ID} add ownership '{Security Context 에 연결된 Department's Name}' '{Security Context에 연결된 PnOProject의 이름}' for "Multiple Ownership For Object" as read,show,checkout;
+
+mod bus ${OBJECT_ID} add ownership - 'user01_PRJ' for "Multiple Ownership For Object" as read,show,checkout;
+
+
+Security Context
+	Department
+	PnOProject
+	
+mod bus 43008.23726.17920.1510324 add ownership 'AV' 'GLOBAL' for "Multiple Ownership For Object" as read,show,checkout;
+mod bus 43008.23726.17920.1532104 remove ownership 'AV' 'GLOBAL' for "Multiple Ownership For Object";
+
+
+mod bus 43008.23726.34016.15213 add ownership 'AV' 'GLOBAL' for "Multiple Ownership For Object" as read,show,checkout;
+
